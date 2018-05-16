@@ -1,0 +1,29 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "27.0.3"
+
+    defaultConfig {
+        applicationId "mobi.roomz"
+        minSdkVersion 9
+        targetSdkVersion 21
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile project(':emojicon')
+    compile 'com.google.android.gms:play-services:+'
+    compile 'com.android.support:appcompat-v7:21.0.3'
+    compile files('libs/AF-Android-SDK-v2.3.1.12.jar')
+    compile files('libs/bolts-android-1.1.4.jar')
+    compile files('libs/Parse-1.8.0.jar')
+    compile files('libs/ParseCrashReporting-1.8.0.jar')
+}

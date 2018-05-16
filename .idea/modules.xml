@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Roomz.iml" filepath="$PROJECT_DIR$/Roomz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/emojicon/emojicon.iml" filepath="$PROJECT_DIR$/emojicon/emojicon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/roomz/roomz.iml" filepath="$PROJECT_DIR$/roomz/roomz.iml" />
+    </modules>
+  </component>
+</project>

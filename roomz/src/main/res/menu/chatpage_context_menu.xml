@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/chatPage_copy_to_clipboard_MenuItem"
+        android:orderInCategory="101"
+        android:showAsAction="never"
+        android:title="Copy"/>
+    <item
+        android:id="@+id/chatPage_delete_MenuItem"
+        android:orderInCategory="102"
+        android:showAsAction="never"
+        android:title="Delete"/>
+
+</menu>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/MyBackground_chatPage"
+        android:orientation="vertical"
+        android:paddingLeft="35dp"
+        android:paddingRight="35dp"
+        android:paddingTop="15dp" >
+
+        <TextView
+            android:id="@+id/chatInfo_roomId_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/chatinfo_button_touch_event"
+            android:gravity="bottom"
+            android:minHeight="45dp"
+            android:text="room id"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/Gray" />
+
+        <TextView
+            android:id="@+id/chatInfo_change_roomName_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/chatinfo_button_touch_event"
+            android:gravity="bottom"
+            android:minHeight="45dp"
+            android:text="Change room name"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/Gray" />
+
+        <TextView
+            android:id="@+id/chatInfo_change_nickname_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/chatinfo_button_touch_event"
+            android:gravity="bottom"
+            android:minHeight="45dp"
+            android:text="Change nickname"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/Gray" />
+
+        <TextView
+            android:id="@+id/chatInfo_change_wallpaper_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/chatinfo_button_touch_event"
+            android:gravity="bottom"
+            android:minHeight="45dp"
+            android:text="Wallpaper"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/Gray" />
+
+        <TextView
+            android:id="@+id/chatInfo_clear_room_messages_textView"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/chatinfo_button_touch_event"
+            android:gravity="bottom"
+            android:text="Clear messages"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/Gray" />
+
+        <TextView
+            android:id="@+id/chatInfo_wipe_room_textView"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/chatinfo_button_touch_event"
+            android:gravity="bottom"
+            android:text="Host - Wipe room"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/Gray"
+            android:visibility="gone" />
+        
+        <TextView
+            android:id="@+id/chatInfo_secure_room_textView"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/chatinfo_button_touch_event"
+            android:gravity="bottom"
+            android:text="Host - Secure room"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/Gray"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginTop="25dp"
+            android:background="@color/MyBackground_orange_red"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="USERS"
+                android:textColor="@color/White"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/chatInfo_listView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@color/holo_blue"
+            android:dividerHeight="3dp" >
+        </ListView>
+    </LinearLayout>
+
+</ScrollView>

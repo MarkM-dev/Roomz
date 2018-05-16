@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/MyBackground_orange_red"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/fte_host_textView"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="0.5"
+        android:background="@null"
+        android:gravity="center"
+        android:text="HOST"
+        android:textColor="@android:color/white"
+        android:textSize="40sp" />
+
+    <View
+        android:layout_width="125dp"
+        android:layout_height="1dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/White" />
+
+    <TextView
+        android:id="@+id/fte_join_textView"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="0.5"
+        android:background="@null"
+        android:gravity="center"
+        android:text="JOIN"
+        android:textColor="@android:color/white"
+        android:textSize="40sp" />
+
+</LinearLayout>

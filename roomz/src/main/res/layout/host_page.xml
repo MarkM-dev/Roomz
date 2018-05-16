@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/MyBackground_gray"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/MyBackground_orange_red"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/host_page_back_button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/button_touch_event_bg"
+            android:text="Back"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/White" />
+
+        <View
+            android:layout_width="0dip"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@null" />
+
+        <Button
+            android:id="@+id/host_page_host_button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/button_touch_event_bg"
+            android:text="Host"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/LightSlateGray" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:orientation="vertical"
+        android:padding="35dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/abc_ab_transparent_light_holo"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/host_page_room_name_editText"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@null"
+                android:hint="Room name"
+                android:inputType="textCapSentences"
+                android:singleLine="true"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@android:color/black" />
+
+            <Button
+                android:id="@+id/host_page_room_name_clear_button"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="right|center_vertical"
+                android:background="@drawable/abc_ic_clear_search_api_disabled_holo_light" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/host_page_room_id_error_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/Red"
+            android:textSize="12sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/abc_ab_transparent_light_holo"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/host_page_room_nickname_editText"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@null"
+                android:hint="Nickname"
+                android:imeOptions="actionGo"
+                android:inputType="textCapSentences"
+                android:singleLine="true"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <Button
+                android:id="@+id/host_page_room_nickname_clear_button"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="right|center_vertical"
+                android:background="@drawable/abc_ic_clear_search_api_disabled_holo_light" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

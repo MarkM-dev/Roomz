@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/main_share_contextMenuItem"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Invite"/>
+    <item
+        android:id="@+id/main_mute_contextMenuItem"
+        android:orderInCategory="201"
+        android:showAsAction="never"
+        android:title="Mute"/>
+    <item
+        android:id="@+id/main_leave_contextMenuItem"
+        android:orderInCategory="302"
+        android:showAsAction="never"
+        android:title="Leave"/>
+
+</menu>
