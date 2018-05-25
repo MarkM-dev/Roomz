@@ -1,4 +1,4 @@
-"Roomz" is a chat application I've developed with some friends.
+"Roomz" is an Android chat application I've developed with friends.
 Roomz uses Parse's (Parse.com - no longer active) cloud services.
 
 Can be viewed here:
